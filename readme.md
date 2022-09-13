@@ -11,7 +11,7 @@ MONGO_DATABASE
 
 ## To send notifications
 SERVER_EMAIL
-SERVER_PASSWORD
+SERVER_TOKEN
 
 ## To give admin authentication
 ADMIN_EMAIL 

@@ -35,5 +35,5 @@ export const mongoDB = {
 /* ---------------------------------------------------------------------------------------------- */
 
 export const serverEmail = process.env.SERVER_EMAIL
-export const serverEmailPassword = process.env.SERVER_PASSWORD
+export const serverEmailPassword = process.env.SERVER_TOKEN
 export const adminEmail = process.env.ADMIN_EMAIL
