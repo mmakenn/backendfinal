@@ -3,12 +3,12 @@
   "type": "module",
   "version": "4.0.0",
   "description": "Backend eCommerce",
-  "main": "src/main.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node src/main.js",
-    "start:dev": "nodemon src/main.js --deploy_mode=devel",
-    "start:cluster": "node src/main.js --server_mode=cluster --deploy_mode=devel",
-    "start:devCluster": "nodemon src/main.js --server_mode=cluster"
+    "start": "node main.js",
+    "start:dev": "nodemon main.js --deploy_mode=devel",
+    "start:cluster": "node main.js --server_mode=cluster --deploy_mode=devel",
+    "start:devCluster": "nodemon main.js --server_mode=cluster"
   },
   "repository": {
     "type": "git",
