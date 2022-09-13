@@ -1,0 +1,36 @@
+<h1> Nuevo pedido recibido. </h1>
+<h2> Numero de orden: {{orderId}}</h2>
+<br>
+<h2> Productos:</h2>
+<div class="table-responsive">
+    <table class="table table-secondary">
+        <tr>
+            <th> Producto </th>
+            <th> Precio </th>
+            <th> Imagen </th>
+            <th> Cantidad </th>
+        </tr>
+
+        {{#each products}}
+            <tr>
+                <td>
+                    {{product.name}}
+                </td>
+                <td>
+                    {{product.price}}
+                </td>
+                <td>
+                    <img src={{product.image}} width="40px" alt="">
+                </td>
+                <td>
+                    {{quantity}}
+                </td>
+            </tr>
+        {{/each}}
+    </table>
+</div>
+<br>
+<h2> Usuario: {{userEmail}} </h2>
+<span> Nombre: {{userName}} </span>
+<span> Apellido: {{userLastname}} </span>
+<span> Celular: {{userPhone}} </span>
